@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('w.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#app {
+    text-align: center;
+    background: rgba(86, 239, 231, 0.8); /* Add some transparency to the background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#locationInput {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+}
